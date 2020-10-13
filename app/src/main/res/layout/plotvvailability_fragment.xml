@@ -1,0 +1,102 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Site Type"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/site_type"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Site "
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/select_site"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Sector"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:id="@+id/select_sector"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Block"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:id="@+id/select_block"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_bg"
+                android:gravity="center"
+                android:hint="Plot Number"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/saerch_plot_number"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Search"
+        android:id="@+id/btn_search"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"/>
+   </LinearLayout>

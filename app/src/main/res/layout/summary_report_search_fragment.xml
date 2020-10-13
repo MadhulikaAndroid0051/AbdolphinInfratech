@@ -1,0 +1,170 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="From Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:layout_marginRight="10dp"
+            android:id="@+id/from_date"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:text="To Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/to_date"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:id="@+id/search_customer_id"
+        android:background="@drawable/button_bg"
+        android:hint="Search By Customer Id"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:id="@+id/search_customer_name"
+        android:background="@drawable/button_bg"
+        android:hint="Search By Customer Name"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="14dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_bg"
+        android:hint="Search By Mobile Number"
+        android:gravity="center"
+        android:id="@+id/search_mobile_number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:background="@drawable/button_bg"
+        android:id="@+id/search_booking_number"
+        android:hint="Search By Booking Number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:background="@drawable/button_bg"
+        android:id="@+id/search_plot_number"
+        android:hint="Search By Plot Number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Site"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Sector"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Block"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:contextClickable="true"
+            android:id="@+id/spinner_select_site"
+            android:gravity="start"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/spinner_select_sector"
+            android:gravity="start"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/spinner_select_block"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/btn_search"/>
+
+
+</LinearLayout>

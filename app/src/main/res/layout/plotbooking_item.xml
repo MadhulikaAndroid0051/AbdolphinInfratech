@@ -1,0 +1,353 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:tag="card main contaner"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Branch Name :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Branch Name"
+                    android:textColor="#000"
+                    android:textSize="12dp"
+
+                    android:layout_weight="1"
+                    android:id="@+id/tv_branch_name"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Booking No :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Booking No"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_booking_no"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Booking Date	:"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Booking Date"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_booking_date"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plot Details :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Plot Details "
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_plot_details"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Plan :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Payment Plan"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_payment_plan"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Detail :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Customer Detail"
+                    android:textSize="12dp"
+                    android:layout_weight="1"
+                    android:textColor="#000"
+
+                    android:id="@+id/tv_customer_detail"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Affiliate Details	 :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Affiliate Details"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_affiliate_id"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Plot Amt :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Plot Amt"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_plot_amt"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PLC :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="PLC"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_plc"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Net Amnt :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Net Amnt"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_net_amnt"/>
+            </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="1dp"
+            android:background="@color/dot_dark_screen1"
+            />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paid Amt :"
+                    android:layout_weight="2"
+                    android:textSize="12dp"
+
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Paid Amt"
+                    android:textSize="12dp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:id="@+id/tv_paid_amt"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

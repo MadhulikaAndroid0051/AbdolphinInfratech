@@ -1,0 +1,78 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="From Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:layout_marginRight="10dp"
+            android:id="@+id/from_date"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:text="To Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/to_date"/>
+
+
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        app:cardMaxElevation="18dp"
+        app:cardBackgroundColor="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Status"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/spinner_status"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Search"
+    android:id="@+id/btn_search"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"/>
+
+</LinearLayout>
